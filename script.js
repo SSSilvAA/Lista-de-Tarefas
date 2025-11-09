@@ -44,13 +44,13 @@ function imprimiArray(length) {
     const INPUT = document.createElement("input");
     INPUT.setAttribute("type", "checkbox");
     const P = document.createElement("p");
-    const P 
+    P.innerText = d.nome;
 
     DIV.appendChild(INPUT);
     DIV.appendChild(P);
-
-
     Listatarefas.appendChild(DIV);
+
+    tarefaFeita(DIV);
 
   })
 
@@ -75,12 +75,3 @@ function tarefaFeita(div) {
 
 ;
 }
-
-
-
-
-
-
-
-
-
