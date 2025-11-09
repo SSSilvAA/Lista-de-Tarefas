@@ -1,0 +1,55 @@
+body,
+html {
+
+    background-color: #F4CE01;
+}
+
+span.span2{
+
+    word-wrap: break-word;
+}
+
+
+.div{
+
+        margin: 0px 3px;
+        max-width: 500px;
+        min-width: 500px;
+        background-color: black;
+}
+
+.tarefa{
+
+    
+       margin: 0px 3px;
+       max-width: 500px;
+       min-width: 500px;
+       border: black 1px solid ;
+}
+
+ .tarefa input{
+
+    margin: 20px;
+    width: 30px;
+    height: 20px;
+    float: left;
+    
+}
+ 
+
+.tarefa p{
+
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2px solid red;
+    margin-right: 250px;
+    
+    
+}
+
+.marcado input[type='checkbox']:checked + p{
+   
+    text-decoration: line-through;
+
+}
+
